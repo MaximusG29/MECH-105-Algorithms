@@ -1,6 +1,6 @@
 function [fX, fY, slope, intercept, Rsquared] = linearRegression(x,y)
 %linearRegression Computes the linear regression of a data set
-%   Compute the linear regression based on inputs:
+%   Inputs:
 %     1. x: x-values for our data set
 %     2. y: y-values for our data set
 %

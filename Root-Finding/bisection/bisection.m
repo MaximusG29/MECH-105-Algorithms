@@ -1,5 +1,5 @@
 function [root, fx, ea, iter] = bisection(func, xl, xu, es, maxit)
-%falsePosition(func, xl, xu, es, maxit) finds the root of a function using
+%bisection(func, xl, xu, es, maxit) finds the root of a function using
 %bisection
 %Inputs:
 %    func - the function being evaluated
