@@ -18,7 +18,7 @@
 * iter - how many iterations were performed
 ---
 ## EX: 
-func = @(x) x.2 - 50;
+func = @(x) x.^2 - 50;
 
 xr = 6; pf = 0.0000001; 
 
