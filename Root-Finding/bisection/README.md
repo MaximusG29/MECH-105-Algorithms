@@ -16,8 +16,8 @@
 * iter - how many iterations were performed
 ---
 ## EX: 
-func = @(x) x.2 - 50;
+func = @(x) x.^2 - 50;
 
-xl = 6: xu = 8:
+xl = 6; xu = 8;
 
 [root, fx, ea, iter] = bisection(func, xl, xu);
