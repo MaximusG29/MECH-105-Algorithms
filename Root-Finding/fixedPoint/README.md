@@ -17,6 +17,6 @@
 ## EX: 
 func = @(x) x.^2 - 50;
 
-xr = 6: 
+xr = 6; 
 
 [root, fx, ea, iter] = fixedPoint(func, xr);
