@@ -1,5 +1,5 @@
 function [root, fx, ea, iter] = secantModif2(func, xr, pf, es, maxit)
-%falsePosition(func, xl, xu, es, maxit) finds the root of a function using
+%falsePosition(func, xr, pf, es, maxit) finds the root of a function using
 %the modified secant method with Dr. B logic
 %Inputs:
 %    func - the function being evaluated

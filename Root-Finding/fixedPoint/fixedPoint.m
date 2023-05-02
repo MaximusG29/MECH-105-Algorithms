@@ -1,5 +1,5 @@
 function [root, fx, ea, iter] = fixedPoint(func, xr, es, maxit)
-%falsePosition(func, xl, xu, es, maxit) finds the root of a function  using fixed point iteration
+%fixedPoint(func, xr, es, maxit) finds the root of a function  using fixed point iteration
 %Inputs:
 %    func - the function being evaluated (must be set equal to the variable
 %    wanted)

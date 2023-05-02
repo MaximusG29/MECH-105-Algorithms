@@ -1,5 +1,5 @@
 function [root, fx, ea, iter] = newtonRaphson(func, deriv, xr, es, maxit)
-%falsePosition(func, xl, xu, es, maxit) finds the root of a function using
+%newtonRaphson(func, deriv, xr, es, maxit) finds the root of a function using
 %Newton Raphson Method
 %Inputs:
 %    func - the function being evaluated
